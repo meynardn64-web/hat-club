@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://dlvyqvosob0cd"]
+
+[ext_resource type="Texture2D" uid="uid://bcd8xsgvvhupj" path="res://Summer2.png" id="1_f573o"]
+[ext_resource type="Texture2D" uid="uid://cbe5bfcibb24j" path="res://img/609b47c1f52e39a.png" id="2_imu8c"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_f573o"]
+load_path = "res://.godot/imported/pixil-frame-0 (1).png-160dd9969d7e45d14d604c370b40e019.ctex"
+
+[node name="Summer2" type="Sprite2D" unique_id=994173137]
+position = Vector2(-80909.49, -7037)
+scale = Vector2(102.73046, 68.66551)
+texture = ExtResource("1_f573o")
+
+[node name="609b47c1f52e39a" type="Sprite2D" parent="." unique_id=142877203]
+position = Vector2(-990.6345, 210.26846)
+scale = Vector2(0.16194697, 0.20324595)
+texture = ExtResource("2_imu8c")
+
+[node name="PixilFrame0(1)" type="Sprite2D" parent="." unique_id=646754310]
+position = Vector2(-1384.008, 1179.049)
+scale = Vector2(3.76781, 7.1582947)
+texture = SubResource("CompressedTexture2D_f573o")
+hframes = 3
+vframes = 3
