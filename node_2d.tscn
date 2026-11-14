@@ -1,0 +1,146 @@
+[gd_scene format=3 uid="uid://bg8fmskd4hk5m"]
+
+[ext_resource type="Texture2D" uid="uid://dw4bqdy3ekroq" path="res://fondo falpy bir.jpg" id="1_0hol4"]
+[ext_resource type="Texture2D" uid="uid://cbe5bfcibb24j" path="res://img/609b47c1f52e39a.png" id="2_q6r6c"]
+[ext_resource type="Texture2D" uid="uid://4r5ekwxahnet" path="res://img/09643a4ce6df1d1.png" id="3_kdubu"]
+[ext_resource type="Texture2D" uid="uid://b1fxwuavajgqg" path="res://pixelated-portal-to-another-dimension-free-png.webp" id="4_d21ai"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fuc4r"]
+size = Vector2(2406.4, 5375.9995)
+
+[sub_resource type="Animation" id="Animation_rj586"]
+resource_name = "animacion portal"
+length = 14.0
+loop_mode = 1
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_4d7sh"]
+_data = {
+&"animacion portal": SubResource("Animation_rj586")
+}
+
+[node name="Node2D" type="Node2D" unique_id=730529309]
+metadata/_edit_vertical_guides_ = [-70348.0]
+
+[node name="FondoFalpyBir" type="Sprite2D" parent="." unique_id=1251283502]
+position = Vector2(-87789, -23386.998)
+scale = Vector2(309.8289, 188.94981)
+texture = ExtResource("1_0hol4")
+
+[node name="FondoFalpyBir2" type="Sprite2D" parent="." unique_id=1688299422]
+position = Vector2(20604, -23519.998)
+scale = Vector2(309.8289, 188.94981)
+texture = ExtResource("1_0hol4")
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1761800118]
+position = Vector2(-2410, 2921)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=59022443]
+position = Vector2(13141.984, -5227.004)
+scale = Vector2(5, 5)
+shape = SubResource("RectangleShape2D_fuc4r")
+
+[node name="Sprite 2" type="Sprite2D" parent="CharacterBody2D" unique_id=1394574703]
+position = Vector2(-154581, -31996)
+scale = Vector2(8.885712, 8.400003)
+texture = ExtResource("2_q6r6c")
+
+[node name="09643a4Ce6Df1d1" type="Sprite2D" parent="CharacterBody2D" unique_id=328661766]
+position = Vector2(-133448.97, -5507.016)
+scale = Vector2(14.103285, 26.553358)
+texture = ExtResource("3_kdubu")
+
+[node name="09643a4Ce6Df1d6" type="Sprite2D" parent="CharacterBody2D" unique_id=848581]
+position = Vector2(-56965.965, -9397.498)
+scale = Vector2(13.788281, 31.802502)
+texture = ExtResource("3_kdubu")
+
+[node name="09643a4Ce6Df1d5" type="Sprite2D" parent="CharacterBody2D" unique_id=326342051]
+position = Vector2(-81608.97, -5623.0166)
+scale = Vector2(14.103273, 25.29336)
+texture = ExtResource("3_kdubu")
+
+[node name="09643a4Ce6Df1d2" type="Sprite2D" parent="CharacterBody2D" unique_id=1131890016]
+position = Vector2(-123904.016, -55680)
+rotation = -3.1415927
+scale = Vector2(14.108122, 27.168436)
+texture = ExtResource("3_kdubu")
+
+[node name="09643a4Ce6Df1d11" type="Sprite2D" parent="CharacterBody2D" unique_id=881923808]
+position = Vector2(-35914.934, -8936.03)
+scale = Vector2(15.26323, 31.475054)
+texture = ExtResource("3_kdubu")
+
+[node name="09643a4Ce6Df1d13" type="Sprite2D" parent="CharacterBody2D" unique_id=1602030081]
+position = Vector2(-6144.001, -54911.996)
+rotation = -3.1415927
+scale = Vector2(12.632216, 26.469873)
+texture = ExtResource("3_kdubu")
+
+[node name="09643a4Ce6Df1d14" type="Sprite2D" parent="CharacterBody2D" unique_id=873883983]
+position = Vector2(11384.0625, -3031.5005)
+scale = Vector2(14.948226, 22.115831)
+texture = ExtResource("3_kdubu")
+
+[node name="09643a4Ce6Df1d17" type="Sprite2D" parent="CharacterBody2D" unique_id=22209193]
+position = Vector2(32559.063, -4039.9993)
+scale = Vector2(15.158228, 25.056667)
+texture = ExtResource("3_kdubu")
+
+[node name="09643a4Ce6Df1d15" type="Sprite2D" parent="CharacterBody2D" unique_id=1583730786]
+position = Vector2(-13502.9375, -5538.5166)
+scale = Vector2(14.003227, 26.257528)
+texture = ExtResource("3_kdubu")
+
+[node name="09643a4Ce6Df1d16" type="Sprite2D" parent="CharacterBody2D" unique_id=39760310]
+position = Vector2(14704.824, -48804.805)
+rotation = 3.1415927
+scale = Vector2(10.87095, 30.546717)
+texture = ExtResource("3_kdubu")
+
+[node name="09643a4Ce6Df1d12" type="Sprite2D" parent="CharacterBody2D" unique_id=1830490946]
+position = Vector2(-27777.006, -55552.004)
+rotation = -3.1415927
+scale = Vector2(14.108122, 27.168436)
+texture = ExtResource("3_kdubu")
+
+[node name="09643a4Ce6Df1d10" type="Sprite2D" parent="CharacterBody2D" unique_id=342358737]
+position = Vector2(-51026, -55894.004)
+rotation = -3.1415927
+scale = Vector2(13.574791, 23.328442)
+texture = ExtResource("3_kdubu")
+
+[node name="09643a4Ce6Df1d7" type="Sprite2D" parent="CharacterBody2D" unique_id=1893517912]
+position = Vector2(-76670, -56825)
+rotation = -3.1415927
+scale = Vector2(14.108122, 24.928436)
+texture = ExtResource("3_kdubu")
+
+[node name="09643a4Ce6Df1d8" type="Sprite2D" parent="CharacterBody2D" unique_id=1420370544]
+position = Vector2(-98944.01, -58240.004)
+rotation = -3.1415927
+scale = Vector2(14.108122, 28.235096)
+texture = ExtResource("3_kdubu")
+
+[node name="09643a4Ce6Df1d9" type="Sprite2D" parent="CharacterBody2D" unique_id=759316825]
+position = Vector2(-140936, -55687.004)
+rotation = -3.1415927
+scale = Vector2(14.108122, 21.94177)
+texture = ExtResource("3_kdubu")
+
+[node name="09643a4Ce6Df1d4" type="Sprite2D" parent="CharacterBody2D" unique_id=865370037]
+position = Vector2(-107330.94, -8999.207)
+rotation = -0.009233177
+scale = Vector2(14.384418, 31.372488)
+texture = ExtResource("3_kdubu")
+
+[node name="09643a4Ce6Df1d3" type="Sprite2D" parent="CharacterBody2D" unique_id=1807467285]
+position = Vector2(4154, -11666)
+scale = Vector2(22.214584, 22.901875)
+
+[node name="PixelatedPortalToAnotherDimensionFreePng" type="Sprite2D" parent="." unique_id=1739442272]
+position = Vector2(71857, -28115.5)
+scale = Vector2(39.71225, 47.686733)
+texture = ExtResource("4_d21ai")
+
+[node name="AnimationTree" type="AnimationTree" parent="PixelatedPortalToAnotherDimensionFreePng" unique_id=1503460387]
+libraries/ = SubResource("AnimationLibrary_4d7sh")
